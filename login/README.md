@@ -9,9 +9,9 @@ it needs to be annotated as @RunWith(UiRunner.class) for every test class
 
 # Custom Annotations 
 
-WithBrowser - its Class level annotation to specify on which browser test needs to be run 
-FlushCookies - Test level annotation to delete cookies before/after the test run 
-AddWebScrapperCookie - Test level annotation to add cookies which is same as scrapper login 
+WithBrowser - its Class level annotation to specify on which browser test needs to be run.
+FlushCookies - Test level annotation to delete cookies before/after the test run. 
+AddWebScrapperCookie - Test level annotation to add cookies which is same as scrapper login. 
 
 # Test Environment 
 
@@ -43,3 +43,6 @@ Assertions util has been built for Login Page, Welcome Page and Cookies which ar
 2. Cases covered for Login (creation of cookies validation), refreshing (reading cookies), 
 updated user session (update cookies) and deleting user session (deleting cookies)
 3. Test cases covered for enabling and disabling cookies 
+
+# Screenshot 
+If test fails, framework takes screenshot and stores at targets/screenshots
